@@ -1,0 +1,155 @@
+.portfolio-container {
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      color: #000;
+      padding: 24px 0 1188px;
+    }
+  
+    .header-wrapper {
+      align-self: center;
+      display: flex;
+      width: 100%;
+      max-width: 1453px;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .logo-text {
+      padding-left: 20px;
+      font: 400 48px Londrina Sketch, sans-serif;
+    }
+  
+    .nav-menu {
+      background-color: rgba(255, 255, 255, 0.5);
+      align-self: start;
+      display: flex;
+      margin-top: 16px;
+      align-items: start;
+      gap: 40px 75px;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 4px 20px 4px 4px;
+      font: 300 20px Jost, sans-serif;
+    }
+  
+    .nav-item {
+      align-self: stretch;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      gap: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+      flex: 0 0 auto;
+      width: 123px;
+      padding: 0 14px;
+      border: 1px dashed #000;
+    }
+  
+    .hero-section {
+      width: 100%;
+      background-color: #84748f;
+      margin-top: 106px;
+      color: #1e1e1e;
+      padding: 201px 48px 95px;
+      font: 300 32px Jost, sans-serif;
+    }
+  
+    .projects-section {
+      display: flex;
+      margin-top: 307px;
+      width: 100%;
+      flex-direction: column;
+      align-items: start;
+      padding: 0 57px 0 28px;
+      font: 300 24px Jost, sans-serif;
+    }
+  
+    .section-title {
+      font: 500 48px Jost, sans-serif;
+    }
+  
+    .project-header {
+      align-self: stretch;
+      display: flex;
+      margin-top: 68px;
+      align-items: center;
+      gap: 40px 100px;
+      font: 400 32px Jost, sans-serif;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  
+    .project-title {
+      align-self: stretch;
+      margin: auto 0;
+    }
+  
+    .project-date {
+      align-self: stretch;
+      margin: auto 0;
+    }
+  
+    .project-description {
+      margin-top: 63px;
+      width: 986px;
+    }
+  
+    .project-link {
+      margin-top: 13px;
+      text-decoration: none;
+      color: inherit;
+    }
+  
+    @media (max-width: 991px) {
+      .portfolio-container {
+        padding-bottom: 100px;
+      }
+  
+      .header-wrapper {
+        max-width: 100%;
+      }
+  
+      .logo-text {
+        font-size: 40px;
+      }
+  
+      .nav-menu {
+        max-width: 100%;
+      }
+  
+      .nav-item {
+        white-space: initial;
+      }
+  
+      .hero-section {
+        max-width: 100%;
+        margin-top: 40px;
+        padding: 100px 20px 110px;
+      }
+  
+      .projects-section {
+        max-width: 100%;
+        margin-top: 40px;
+        padding: 0 20px;
+      }
+  
+      .section-title {
+        font-size: 40px;
+      }
+  
+      .project-header {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+  
+      .project-title {
+        max-width: 100%;
+      }
+  
+      .project-description {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    }
