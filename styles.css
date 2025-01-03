@@ -232,6 +232,7 @@
   color: #fff;
   text-decoration: none;
   padding-right: 16px;
+  padding-left: 4px;
 
 }
 footer{
@@ -245,6 +246,7 @@ footer{
   background-color: #7f8f74;
   font: 300 24px Jost, sans-serif;
   padding-bottom: 30px;
+  bottom: 0;
 }
 
 .contain {
