@@ -20,7 +20,7 @@ body {
 
 }
 
-.header-wrapper {
+#header-wrapper {
   display: flex;
   width: 100%;
   gap: 20px;
@@ -250,7 +250,7 @@ padding-bottom: 30px;
 bottom: 0;
 }
 
-.contain {
+#contain {
 display: flex;
 align-items: center;
 gap: 40px;
@@ -258,7 +258,9 @@ color: rgba(0, 0, 0, 1);
 white-space: nowrap;
 justify-content: center;
 flex-wrap: wrap;
-padding: 20px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
 font: 400 12px Inter, sans-serif;
 z-index:0;
 }
