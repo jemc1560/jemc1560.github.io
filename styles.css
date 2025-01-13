@@ -88,6 +88,7 @@ body {
   justify-content: center;
 
 }
+
 .typehead h1 {
   font: 400 36px Jost, sans-serif;
   overflow: hidden;
@@ -414,4 +415,52 @@ legend {
   border-radius: 20px;
   border-color: #84748f;
 
+}
+/* project page */
+
+#propage{
+  font: 400 36px Jost, sans-serif;
+  text-align: left;
+
+  
+}
+.head1 {
+    background-color: #84748f;
+    width: 100%;
+    margin-top: 60px;
+    padding:20px;
+
+    
+}
+#ISH {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #7f8f74;
+  border-radius: 8px;
+  max-width: 120px;
+  
+}
+#proj1 {
+  box-shadow: 10px 10px grey;
+  border:#84748f 4px solid;
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  padding: 20px;
+  align-items: space-evenly;
+  align-content: flex-start;
+}
+.proj {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  font: 400 32px Inter, sans-serif;
+  gap: 30px;
+}
+#ISH:hover {
+  background-color: #84748f;
+  color: #fff;
+
+}
+#REMOVE{
+  color:#fff;
 }
