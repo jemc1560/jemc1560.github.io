@@ -405,6 +405,8 @@ legend {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
+  flex-shrink: 20;
   margin: 48px;
   grid-gap: 30px;
   padding: 10px;
