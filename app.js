@@ -15,11 +15,17 @@ document.addEventListener("DOMContentLoaded", () => {
 function checkOverlap() {
   const element1 = document.getElementById('header-wrapper');
   const element2 = document.getElementById('contain');
+  const element3 = document.getElementById('aboutmepic');
 
   if (isOverlapping(element1, element2)) {
     element2.style.opacity = '50%';
   } else {
     element2.style.opacity = '100%';
+  }
+  if (isOverlapping(element1, element3)) {
+    element3.style.opacity = '50%';
+  } else {
+    element3.style.opacity = '100%';
   }
 }
 function isOverlapping(element1, element2) {
